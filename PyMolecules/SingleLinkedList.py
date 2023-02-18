@@ -33,6 +33,7 @@ class SLL:
         new_node = Node(data)
         if self.head is None:
             self.head = new_node
+            return 
         if pos < 0:
             raise Exception("Position should be greater than zero")
         if pos == 0:
@@ -115,14 +116,18 @@ class SLL:
         if pos < 0:
             raise Exception("The position should be greater than zero")
         if pos == 0:
+            to_delete = self.head
             self.head = self.head.next
+            del to_delete
         if pos > 0:
             curr = self.head
             while pos - 1 != 0 and curr.next is not None:
                 curr = curr.next
                 pos -= 1
             if curr.next is not None:
+                to_delete = curr.next 
                 curr.next = curr.next.next
+                del to_delete
             else:
                 raise Exception("The position should be less than size of linkedlist")
 
