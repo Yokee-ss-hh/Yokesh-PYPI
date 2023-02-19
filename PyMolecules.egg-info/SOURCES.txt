@@ -3,6 +3,7 @@ LICENCE.txt
 MANIFEST.in
 README.txt
 setup.py
+PyMolecules/DoubleLinkedList.py
 PyMolecules/SingleLinkedList.py
 PyMolecules/__init__.py
 PyMolecules.egg-info/PKG-INFO
