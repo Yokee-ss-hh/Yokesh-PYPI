@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: PyMolecules
-Version: 2.0.1
+Version: 2.0.2
 Summary: A Python package for all types of linked lists and most useful methods
 Home-page: UNKNOWN
 Author: Yokesh Bollineni
@@ -32,6 +32,9 @@ Fourth Release (23/02/2023)
 
 Version - 2.0.1
 
+Fifth Release (23/02/2023)
+
+Version - 2.0.2
 
 
 
