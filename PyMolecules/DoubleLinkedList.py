@@ -239,7 +239,7 @@ class DLL:
         count = 0
         while curr is not None:
             count += 1
-            curr = curr.head
+            curr = curr.next 
         return count
                
     def __str__(self):
