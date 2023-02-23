@@ -246,13 +246,6 @@ class SCLL:
     def __str__(self):
         return "<class 'SCLL'>"
     
-        
-scll = SCLL()
-scll.insert_first("boy")
-scll.insert_last("auto")
-scll.traverse()
-scll.sort()
-scll.traverse()
 
 
 
