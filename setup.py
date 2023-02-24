@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='PyMolecules',
-    version='2.0.2',
+    version='3.0.0',
     description='A Python package for all types of linked lists and most useful methods',
     long_description=open('README.txt').read()+'\n\n'+open('CHANGELOG.txt').read(),
     url='',

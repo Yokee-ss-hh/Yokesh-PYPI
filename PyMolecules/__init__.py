@@ -1,6 +1,6 @@
-from PyMolecules import SingleLinkedList, DoubleLinkedList,SingleCircularLinkedList
+from PyMolecules import SingleLinkedList, DoubleLinkedList,SingleCircularLinkedList, DoubleCircularLinkedList
 
 
 __author__ = "Yokesh Bollineni"
-__version__ = "2.0.2"
-__what_is_new__ = "Removal of junk code in the version 2.0.1"
+__version__ = "3.0.0"
+__what_is_new__ = "New class DCLL added, Bug fix in sort() of DLL class"

@@ -20,4 +20,8 @@ Fifth Release (23/02/2023)
 
 Version - 2.0.2
 
+Sixth Release (24/02/2023)
+
+Version - 3.0.0
+
 

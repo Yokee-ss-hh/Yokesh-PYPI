@@ -212,7 +212,7 @@ class DLL:
                 return a
             else:
                 b.next = sortedMerge(a,b.next)
-                b.next.prev = a
+                b.next.prev = b
                 b.prev = None
                 return b
         
@@ -256,6 +256,9 @@ class DLL:
             return self.tail.data
         else:
             raise Exception("No items in the doubly linked list")
+
+
+
 
 
 
