@@ -3,6 +3,7 @@ LICENCE.txt
 MANIFEST.in
 README.txt
 setup.py
+PyMolecules/DoubleCircularLinkedList.py
 PyMolecules/DoubleLinkedList.py
 PyMolecules/SingleCircularLinkedList.py
 PyMolecules/SingleLinkedList.py
